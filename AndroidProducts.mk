@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_charlotte.mk
+    $(LOCAL_DIR)/magma_charlotte.mk
+
+COMMON_LUNCH_CHOICES := \
+    magma_charlotte-user \
+    magma_charlotte-userdebug \
+    magma_charlotte-eng
